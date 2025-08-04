@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 
 st.title("سامانه ارزیابی ریسک")
@@ -22,3 +21,4 @@ if st.button("تحلیل ریسک"):
     st.markdown(f"**احتمال:** {احتمال}")
     st.markdown(f"**کشف:** {کشف}")
     st.markdown(f"**عدد RPN:** {rpn}")
+
